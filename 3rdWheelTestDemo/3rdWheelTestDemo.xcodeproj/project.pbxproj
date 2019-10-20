@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0B104C3C75DCAAF5EEF7A5A5 /* Pods_3rdWheelTestDemo_3rdWheelTestDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C5D01024C1A20C189F1DEF /* Pods_3rdWheelTestDemo_3rdWheelTestDemoUITests.framework */; };
+		56015408235BCB2500357EB8 /* 火箭.zip in Resources */ = {isa = PBXBuildFile; fileRef = 56015407235BCB2500357EB8 /* 火箭.zip */; };
 		560AFCCF235B3F2A000B6A2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 560AFCCE235B3F2A000B6A2A /* AppDelegate.m */; };
 		560AFCD2235B3F2A000B6A2A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 560AFCD1235B3F2A000B6A2A /* SceneDelegate.m */; };
 		560AFCD5235B3F2A000B6A2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 560AFCD4235B3F2A000B6A2A /* ViewController.m */; };
@@ -17,6 +18,10 @@
 		560AFCE0235B3F2C000B6A2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 560AFCDF235B3F2C000B6A2A /* main.m */; };
 		560AFCEA235B3F2C000B6A2A /* _rdWheelTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 560AFCE9235B3F2C000B6A2A /* _rdWheelTestDemoTests.m */; };
 		560AFCF5235B3F2C000B6A2A /* _rdWheelTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 560AFCF4235B3F2C000B6A2A /* _rdWheelTestDemoUITests.m */; };
+		560AFD06235B47A1000B6A2A /* YZZipTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 560AFD05235B47A1000B6A2A /* YZZipTool.m */; };
+		560AFD0D235B4AA8000B6A2A /* LICENSE.zip in Resources */ = {isa = PBXBuildFile; fileRef = 560AFD0C235B4AA8000B6A2A /* LICENSE.zip */; };
+		566D516B235B4F1200FAA7C6 /* YZNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D516A235B4F1200FAA7C6 /* YZNetWorkTool.m */; };
+		56C4B5FC235BD78200B6E702 /* 666.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 56C4B5FB235BD78200B6E702 /* 666.bundle */; };
 		685522E97696D28EC467BEAD /* Pods_3rdWheelTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D777D02E50F4AB0D620C704 /* Pods_3rdWheelTestDemo.framework */; };
 		BADD51EF730DF426F1326142 /* Pods_3rdWheelTestDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F3AEE1C6015FAB6FF5D543 /* Pods_3rdWheelTestDemoTests.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +48,7 @@
 		186C636589865176DCFDE249 /* Pods-3rdWheelTestDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3rdWheelTestDemoTests.release.xcconfig"; path = "Target Support Files/Pods-3rdWheelTestDemoTests/Pods-3rdWheelTestDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D777D02E50F4AB0D620C704 /* Pods_3rdWheelTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3rdWheelTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B3E83A530B3F4006B25908 /* Pods-3rdWheelTestDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3rdWheelTestDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-3rdWheelTestDemoTests/Pods-3rdWheelTestDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56015407235BCB2500357EB8 /* 火箭.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "火箭.zip"; sourceTree = "<group>"; };
 		560AFCCA235B3F2A000B6A2A /* 3rdWheelTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3rdWheelTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		560AFCCD235B3F2A000B6A2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		560AFCCE235B3F2A000B6A2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +67,13 @@
 		560AFCF0235B3F2C000B6A2A /* 3rdWheelTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3rdWheelTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		560AFCF4235B3F2C000B6A2A /* _rdWheelTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _rdWheelTestDemoUITests.m; sourceTree = "<group>"; };
 		560AFCF6235B3F2C000B6A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		560AFD02235B4680000B6A2A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		560AFD04235B47A1000B6A2A /* YZZipTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZZipTool.h; sourceTree = "<group>"; };
+		560AFD05235B47A1000B6A2A /* YZZipTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZZipTool.m; sourceTree = "<group>"; };
+		560AFD0C235B4AA8000B6A2A /* LICENSE.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = LICENSE.zip; sourceTree = "<group>"; };
+		566D5169235B4F1200FAA7C6 /* YZNetWorkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZNetWorkTool.h; sourceTree = "<group>"; };
+		566D516A235B4F1200FAA7C6 /* YZNetWorkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZNetWorkTool.m; sourceTree = "<group>"; };
+		56C4B5FB235BD78200B6E702 /* 666.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 666.bundle; sourceTree = "<group>"; };
 		7FB5AEB691D8ED7D09FC781B /* Pods-3rdWheelTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3rdWheelTestDemo.debug.xcconfig"; path = "Target Support Files/Pods-3rdWheelTestDemo/Pods-3rdWheelTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B6F3AEE1C6015FAB6FF5D543 /* Pods_3rdWheelTestDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3rdWheelTestDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF78DFDD4CE9F885DE48884 /* Pods-3rdWheelTestDemo-3rdWheelTestDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3rdWheelTestDemo-3rdWheelTestDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-3rdWheelTestDemo-3rdWheelTestDemoUITests/Pods-3rdWheelTestDemo-3rdWheelTestDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +134,8 @@
 		560AFCCC235B3F2A000B6A2A /* 3rdWheelTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				566D5168235B4EFC00FAA7C6 /* NetWork */,
+				560AFD03235B478C000B6A2A /* Zip */,
 				560AFCCD235B3F2A000B6A2A /* AppDelegate.h */,
 				560AFCCE235B3F2A000B6A2A /* AppDelegate.m */,
 				560AFCD0235B3F2A000B6A2A /* SceneDelegate.h */,
@@ -132,6 +147,7 @@
 				560AFCDB235B3F2C000B6A2A /* LaunchScreen.storyboard */,
 				560AFCDE235B3F2C000B6A2A /* Info.plist */,
 				560AFCDF235B3F2C000B6A2A /* main.m */,
+				560AFD02235B4680000B6A2A /* PrefixHeader.pch */,
 			);
 			path = 3rdWheelTestDemo;
 			sourceTree = "<group>";
@@ -154,6 +170,35 @@
 			path = 3rdWheelTestDemoUITests;
 			sourceTree = "<group>";
 		};
+		560AFD03235B478C000B6A2A /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				560AFD0B235B4A82000B6A2A /* ZipFileResource */,
+				560AFD04235B47A1000B6A2A /* YZZipTool.h */,
+				560AFD05235B47A1000B6A2A /* YZZipTool.m */,
+			);
+			path = Zip;
+			sourceTree = "<group>";
+		};
+		560AFD0B235B4A82000B6A2A /* ZipFileResource */ = {
+			isa = PBXGroup;
+			children = (
+				56015407235BCB2500357EB8 /* 火箭.zip */,
+				560AFD0C235B4AA8000B6A2A /* LICENSE.zip */,
+				56C4B5FB235BD78200B6E702 /* 666.bundle */,
+			);
+			path = ZipFileResource;
+			sourceTree = "<group>";
+		};
+		566D5168235B4EFC00FAA7C6 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				566D5169235B4F1200FAA7C6 /* YZNetWorkTool.h */,
+				566D516A235B4F1200FAA7C6 /* YZNetWorkTool.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
 		68C7ECAB812966F0D175B608 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,7 +219,6 @@
 				42B3E83A530B3F4006B25908 /* Pods-3rdWheelTestDemoTests.debug.xcconfig */,
 				186C636589865176DCFDE249 /* Pods-3rdWheelTestDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -189,6 +233,7 @@
 				560AFCC6235B3F2A000B6A2A /* Sources */,
 				560AFCC7235B3F2A000B6A2A /* Frameworks */,
 				560AFCC8235B3F2A000B6A2A /* Resources */,
+				CC92348CAF32A673AC98DFE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,6 +271,7 @@
 				560AFCEC235B3F2C000B6A2A /* Sources */,
 				560AFCED235B3F2C000B6A2A /* Frameworks */,
 				560AFCEE235B3F2C000B6A2A /* Resources */,
+				1B6CE1F460DC6805BE2CC620 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -284,9 +330,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56015408235BCB2500357EB8 /* 火箭.zip in Resources */,
 				560AFCDD235B3F2C000B6A2A /* LaunchScreen.storyboard in Resources */,
 				560AFCDA235B3F2C000B6A2A /* Assets.xcassets in Resources */,
 				560AFCD8235B3F2A000B6A2A /* Main.storyboard in Resources */,
+				56C4B5FC235BD78200B6E702 /* 666.bundle in Resources */,
+				560AFD0D235B4AA8000B6A2A /* LICENSE.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +356,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1B6CE1F460DC6805BE2CC620 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3rdWheelTestDemo-3rdWheelTestDemoUITests/Pods-3rdWheelTestDemo-3rdWheelTestDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3rdWheelTestDemo-3rdWheelTestDemoUITests/Pods-3rdWheelTestDemo-3rdWheelTestDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-3rdWheelTestDemo-3rdWheelTestDemoUITests/Pods-3rdWheelTestDemo-3rdWheelTestDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		29855FEC0564F06A2E92976A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,6 +439,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CC92348CAF32A673AC98DFE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3rdWheelTestDemo/Pods-3rdWheelTestDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3rdWheelTestDemo/Pods-3rdWheelTestDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-3rdWheelTestDemo/Pods-3rdWheelTestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -380,10 +463,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560AFD06235B47A1000B6A2A /* YZZipTool.m in Sources */,
 				560AFCD5235B3F2A000B6A2A /* ViewController.m in Sources */,
 				560AFCCF235B3F2A000B6A2A /* AppDelegate.m in Sources */,
 				560AFCE0235B3F2C000B6A2A /* main.m in Sources */,
 				560AFCD2235B3F2A000B6A2A /* SceneDelegate.m in Sources */,
+				566D516B235B4F1200FAA7C6 /* YZNetWorkTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +639,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "${SRCROOT}/3rdWheelTestDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = 3rdWheelTestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -571,6 +657,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "${SRCROOT}/3rdWheelTestDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = 3rdWheelTestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

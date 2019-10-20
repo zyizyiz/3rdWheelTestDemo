@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  3rdWheelTestDemo
+//
+//  Created by 张义镇 on 2019/10/19.
+//  Copyright © 2019 张义镇. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Lottie/Lottie.h>
+
+#endif /* PrefixHeader_pch */
